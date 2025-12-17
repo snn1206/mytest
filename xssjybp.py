@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+st.sidebar.empty()
+
 def get_dataframe_from_excel():
     # pd.read_excel()函数用于读取Excel文件的数据
     # 'supermarket_sales.xlsx'表示Excel文件的路径及名称
